@@ -7,20 +7,61 @@
     <link rel="stylesheet" href="menu.css">
 </head>
 
-<h1 style="text-align:center;"> Bienvenue</h1>
-<br>
-<body style="text-align:center;">
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">M2L</span> - Maison des Ligues de Lorraine</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#infrastructures">Infrastructures</a></li>
+                    <li><a href="#reservations">Réservations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section id="home" class="home">
-    <div class="home-content">
-      <h1>Equipements du parc</h1>
-	  </br>
-      <div class="buttons">
-        <button class="btn" onclick="window.location.href='PCs.html'" >PCs</button>
-		<button class="btn" onclick="window.location.href='Composants.html'" >Composants</button>
-        <button class="btn" onclick="window.location.href='Périphériques.html'" >Péripheriques</button>
-      </div>
-    </div>
-  </section>
+    <section id="showcase">
+        <div class="container">
+            <h2>Espace au service du sport Lorrain</h2>
+            <p>Une structure financée par le Conseil Régional pour accompagner vos ambitions sportives.</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2 class="title">Nos Services Mutualisés</h2>
+        <div class="grid">
+            <div class="box">
+                <h3>Impact Emploi</h3>
+                <p>Gestion des paies et assistance comptable pour les associations sportives [3].</p>
+            </div>
+            <div class="box">
+                <h3>Support Informatique</h3>
+                <p>Accès WiFi, serveur FTP documentaire et gestion de parc [2, 6].</p>
+            </div>
+            <div class="box">
+                <h3>Reprographie</h3>
+                <p>Impressions numériques, traceurs et affranchissement en nombre [7, 8].</p>
+            </div>
+            <div class="box">
+                <h3>Formations</h3>
+                <p>Catalogue diversifié pour les bénévoles et les salariés des ligues [9].</p>
+            </div>
+        </div>
+    </section> 
+
+    <section id="infrastructures" class="dark">
+        <div class="container">
+            <h2 class="title">Des Locaux Modernes</h2>
+            <p>La M2L offre 80 bureaux répartis sur 4 bâtiments, un amphithéâtre de 200 places et 8 salles de réunion [4, 5, 10].</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Maison des Ligues de Lorraine - Gérée par le CROSL - &copy; 2024</p>
+    </footer>
 </body>
 </html>
